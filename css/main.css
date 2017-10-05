@@ -1,3 +1,4 @@
+
 body {
   background-color: #fdf6e3;
 }
@@ -13,9 +14,6 @@ footer{
 ul {
   font-family: sans-serif;
 }
-ul li {
-    background-color: #719e07;
-}
 
 ul li:nth-child(2) {
   background-color: none;
@@ -29,12 +27,23 @@ ul li:nth-child(2) {
   background-color: #eee8d5;
 }
 
-.dfn {
+p + strong{
   color: #fff;
 }
 
-.no-highlight {
+.wrapper > .dfn: last-child {
+  background-color: #b58900;
+}
+
+a:not(.no-highlight){
   background-color: #719e07;
+}
+#contents,#favs,#facts,#types{
+  color: #93a1a1;
+}
+
+[rel="external"]{
+  background-color: #2694d8;
 }
 ol li:last-child {
   color: #2aa198;
